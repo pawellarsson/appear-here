@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+#registration-form-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#registration-form input {
+  width: 10em;
+  margin-bottom: 30px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+#registration-form .submit-button {
+  width: 10em;
+}
